@@ -1,0 +1,29 @@
+# Core Kafka & Avro
+confluent-kafka>=2.3.0
+confluent-kafka[avro]>=2.3.0
+fastavro>=1.9.3  # Modern alternative to avro-python3
+
+# Spark
+pyspark==3.5.0
+py4j==0.10.9.7
+
+# Flink (for Python 3.9)
+apache-flink==1.18.1
+pyflink==1.0.0
+numpy==1.21.4  # Required by Flink
+
+# Dashboard
+streamlit>=1.32.0
+pandas>=2.0.0
+plotly>=5.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Dev/Docker
+docker>=6.1.0
+python-on-whales>=0.65.0
+
+# delta-lake
+delta-spark==2.4.0

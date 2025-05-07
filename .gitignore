@@ -1,0 +1,4 @@
+venv
+data/checkpoint_dir
+data/streaming_parquet_output
+consumer_flink

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    { "name": "order_id", "type": "string" },
+    { "name": "user_id", "type": "string" },
+    { "name": "amount", "type": "float" },
+    { "name": "status", "type": "string" },
+    { "name": "timestamp", "type": "string" }
+  ]
+}
