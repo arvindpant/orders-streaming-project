@@ -19,6 +19,10 @@ This project demonstrates a real-time order streaming pipeline using Kafka, Conf
 ---
 
 ## ▶️ How to Run
+1. docker compose up -d
+2. python producer/producer.py
+3. ./run_spark.py
+4. streamlit run streamlit_app/app.py
 
 ### 1. Setup Virtualenv
 ```bash
