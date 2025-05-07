@@ -4,6 +4,10 @@ This project demonstrates a real-time order streaming pipeline using Kafka, Conf
 
 ---
 
+## 🔄 Architecture Overview
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/4867984d-baf5-4b82-a447-e89bdc672fd1" />
+
+
 ## 🧱 Components
 
 - **Producer (Python)**: Generates fake order data and pushes to Kafka (Avro-encoded).
